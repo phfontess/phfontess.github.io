@@ -3,7 +3,7 @@ import Contact from './assets/components/Contact.vue';
 import About from './assets/components/About.vue';
 
 export const routes = [
-    {path: '/', component: Home},
-    {path: '/contact', component: Contact},
-    {path: '/about', component: About}
+    {path: '/portfolio', component: Home},
+    {path: '/portfolio/contact', component: Contact},
+    {path: '/portfolio/about', component: About}
 ]
