@@ -9,8 +9,8 @@ Vue.use(Router)
 export default new Router({
   mode: 'history',
   routes: [
-    {path: '/portfolio', component: Home},
-    {path: '/portfolio/contact', component: Contact},
-    {path: '/portfolio/about', component: About}
+    {path: '/portfolio', component: Home, children: [
+      {path: 'contact', component: Contact},
+      {path: 'about', component: About}]}
   ]
 })
