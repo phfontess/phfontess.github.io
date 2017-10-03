@@ -5,10 +5,10 @@
                 <router-link to="/portfolio" class="navbar-brand">Pedro Fontes</router-link>
             </div>
             <ul class="nav navbar-nav">
-                <router-link tag="li" activeClass="active" to="/portfolio/contact">
+                <router-link tag="li" activeClass="active" to="/contact">
                     <a>Contact</a>
                 </router-link>
-                <router-link tag="li" activeClass="active" to="/portfolio/about">
+                <router-link tag="li" activeClass="active" to="/about">
                     <a>About</a>
                 </router-link>
             </ul>
